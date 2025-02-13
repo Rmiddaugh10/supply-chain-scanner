@@ -88,6 +88,12 @@ pytest tests/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
+
+Robert Lee Middaugh II - hguaddim@gmail.com
+
+Project Link: [https://github.com/Rmiddaugh10/supply-chain-scanner](https://github.com/Rmiddaugh10/supply-chain-scanner)
+
 ## Acknowledgments
 
 - [CISA Supply Chain Security Guidelines](https://www.cisa.gov/supply-chain-risk-management)
