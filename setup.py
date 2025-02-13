@@ -20,13 +20,13 @@ setup(
             "mypy>=1.4.1",
         ]
     },
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Robert Lee Middaugh II",
+    author_email="hguaddim@gmail.com",
     description="A security scanner for supply chain systems",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     keywords="security, supply-chain, scanner, container-security",
-    url="https://github.com/yourusername/supply-chain-scanner",
+    url="https://github.com/Rmiddaugh10/supply-chain-scanner",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
