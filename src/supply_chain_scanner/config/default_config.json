@@ -1,0 +1,34 @@
+{
+    "scan_intervals": {
+        "containers": 3600,
+        "dependencies": 86400,
+        "network": 300
+    },
+    "alert_thresholds": {
+        "high": 8,
+        "medium": 5,
+        "low": 2
+    },
+    "approved_sources": [
+        "registry.fedex.com",
+        "gcr.io/fedex-prod",
+        "docker.io/fedex"
+    ],
+    "monitoring": {
+        "enabled": true,
+        "log_level": "INFO",
+        "log_file": "scanner.log"
+    },
+    "security_checks": {
+        "container_scan": true,
+        "dependency_check": true,
+        "network_monitor": true,
+        "vulnerability_scan": true
+    },
+    "reporting": {
+        "output_format": "txt",
+        "report_directory": "reports",
+        "include_timestamps": true,
+        "detailed_output": true
+    }
+}

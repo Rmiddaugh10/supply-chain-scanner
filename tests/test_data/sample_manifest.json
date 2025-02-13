@@ -1,0 +1,25 @@
+{
+    "baseImage": "ubuntu:20.04",
+    "imageSources": [
+        "registry.fedex.com/base-image",
+        "gcr.io/fedex-prod/security-tools"
+    ],
+    "layers": [
+        {
+            "digest": "sha256:a123...",
+            "size": 1234567
+        }
+    ],
+    "metadata": {
+        "createdAt": "2024-02-13T10:00:00Z",
+        "author": "FedEx Security Team",
+        "version": "1.0.0"
+    },
+    "security": {
+        "signatures": ["valid-signature-1"],
+        "scanResults": {
+            "timestamp": "2024-02-13T10:05:00Z",
+            "vulnerabilities": []
+        }
+    }
+}
